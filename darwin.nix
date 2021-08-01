@@ -9,8 +9,18 @@
 
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
-  environment.systemPackages = [
-    pkgs.vim
+  environment.systemPackages = with pkgs; [
+    git
+    htop
+    ctags
+    nixfmt
+    fzf
+    fd
+    jq
+    zsh
+    tree
+    shellcheck
+    ripgrep
   ];
 
   # Use a custom configuration.nix location.
