@@ -1,6 +1,12 @@
 { config, pkgs, ... }:
 
 {
+  users.users.philipp = {
+    home = "/Users/philipp";
+    description = "Philipp Muens";
+    shell = pkgs.zsh;
+  };
+
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = [
