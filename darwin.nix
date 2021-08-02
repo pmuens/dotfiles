@@ -21,6 +21,23 @@
     tree
     shellcheck
     ripgrep
+    lscolors
+    bat
+    neovim
+    tmux
+    curl
+    wget
+    whois
+    watch
+    gnupg
+    sqlite
+    go
+    rustup
+    nodejs
+    yarn
+    python3
+    unzip
+    zip
   ];
 
   # Use a custom configuration.nix location.
