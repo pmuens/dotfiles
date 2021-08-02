@@ -9,6 +9,17 @@
   home.username = "philipp";
   home.homeDirectory = "/Users/philipp";
 
+  programs.git = {
+    enable = true;
+    userName = "Philipp Muens";
+    userEmail = "raute1337@gmx.de";
+    extraConfig = { color.ui = true; };
+    signing = {
+      key = "raute1337@gmx.de";
+      signByDefault = true;
+    };
+  };
+
   programs.zsh = {
     enable = true;
     enableCompletion = true;
