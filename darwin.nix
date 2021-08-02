@@ -10,34 +10,34 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
-    git
-    htop
-    ctags
-    nixfmt
-    fzf
-    fd
-    jq
-    zsh
-    tree
-    shellcheck
-    ripgrep
-    lscolors
     bat
-    neovim
-    tmux
+    ctags
     curl
+    fd
+    fzf
+    git
+    gnupg
+    go
+    htop
+    jq
+    lscolors
+    neovim
+    nixfmt
+    nodejs
+    python3
+    ripgrep
+    rustup
+    shellcheck
+    sqlite
+    tmux
+    tree
+    unzip
+    watch
     wget
     whois
-    watch
-    gnupg
-    sqlite
-    go
-    rustup
-    nodejs
     yarn
-    python3
-    unzip
     zip
+    zsh
   ];
 
   # Use a custom configuration.nix location.
