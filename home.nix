@@ -9,6 +9,18 @@
   home.username = "philipp";
   home.homeDirectory = "/Users/philipp";
 
+  programs.ssh = {
+    enable = true;
+    matchBlocks = {
+      "github.com-pmuens" = {
+        hostname = "github.com";
+        user = "git";
+        identityFile = "~/.ssh/github-pmuens";
+        identitiesOnly = true;
+      };
+    };
+  };
+
   programs.git = {
     enable = true;
     userName = "Philipp Muens";
