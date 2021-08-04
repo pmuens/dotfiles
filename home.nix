@@ -11,13 +11,26 @@
 
   programs.ssh = {
     enable = true;
+    # NOTE: Keep in sync with `programs.git` config
     matchBlocks = {
-      "github.com-pmuens" = {
+      "github" = {
         hostname = "github.com";
         user = "git";
         identityFile = "~/.ssh/github-pmuens";
         identitiesOnly = true;
       };
+      "github-pmuens" = {
+        hostname = "github.com";
+        user = "git";
+        identityFile = "~/.ssh/github-pmuens";
+        identitiesOnly = true;
+      };
+      # "github-jdoe" = {
+      #   hostname = "github.com";
+      #   user = "git";
+      #   identityFile = "~/.ssh/github-jdoe";
+      #   identitiesOnly = true;
+      # };
     };
   };
 
@@ -30,6 +43,30 @@
       key = "raute1337@gmx.de";
       signByDefault = true;
     };
+    # NOTE: Keep in sync with `programs.ssh` config
+    includes = [{
+      condition = "gitdir:~/code/pmuens/";
+      contents = {
+        user = {
+          name = "Philipp Muens";
+          email = "raute1337@gmx.de";
+          signingkey = "raute1337@gmx.de";
+        };
+        commit = { gpgsign = true; };
+      };
+    }
+    # {
+    #   condition = "gitdir:~/code/jdoe/";
+    #   contents = {
+    #     user = {
+    #       name = "John Doe";
+    #       email = "jdoe@example.com";
+    #       signingkey = "jdoe@example.com";
+    #     };
+    #     commit = { gpgsign = true; };
+    #   };
+    # }
+      ];
   };
 
   programs.zsh = {
