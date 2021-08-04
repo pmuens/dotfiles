@@ -63,6 +63,9 @@
   system.defaults.finder.AppleShowAllExtensions = true;
   system.defaults.finder.FXEnableExtensionChangeWarning = false;
 
+  system.keyboard.enableKeyMapping = true;
+  system.keyboard.remapCapsLockToEscape = true;
+
   system.defaults.loginwindow.GuestEnabled = false;
 
   system.defaults.trackpad.Clicking = true;
