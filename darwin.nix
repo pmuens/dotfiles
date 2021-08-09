@@ -29,6 +29,7 @@
     rustup
     shellcheck
     sqlite
+    tig
     tmux
     tree
     unzip
