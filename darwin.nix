@@ -24,6 +24,7 @@
     neovim
     nixfmt
     nodejs
+    poetry
     python3
     ripgrep
     rustup
