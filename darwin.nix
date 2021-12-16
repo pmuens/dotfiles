@@ -20,6 +20,7 @@
     go
     htop
     jq
+    lazygit
     lscolors
     neovim
     nixfmt
