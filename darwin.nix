@@ -22,6 +22,7 @@
     jq
     lazygit
     lscolors
+    mkcert
     neovim
     nixfmt
     nodejs
