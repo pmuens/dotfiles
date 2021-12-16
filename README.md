@@ -35,24 +35,22 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 
 ## Other Applications
 
-- 1Password
-- Amphetamine
-- AppCleaner
-- Brave
-- Discord
-- Docker
-- Exporter
-- Flycut
-- GitUp
-- Keynote
-- Noizio
-- Numbers
-- Obsidian
-- Pages
-- Rectangle
-- Spotify
-- TablePlus
-- The Unarchiver
-- Things
-- Visual Studio Code
-- VLC
+- [Amphetamine](https://apps.apple.com/app/amphetamine/id937984704)
+- [AppCleaner](https://freemacsoft.net/appcleaner)
+- [Bitwarden](https://bitwarden.com)
+- [Docker](https://docker.com)
+- [Exporter](https://apps.apple.com/de/app/exporter/id1099120373)
+- [Firefox](https://mozilla.org/firefox)
+- [Flycut](https://apps.apple.com/app/flycut-clipboard-manager/id442160987)
+- [GitUp](https://gitup.co)
+- [Keynote](https://apple.com/keynote)
+- [Noizio](https://noiz.io)
+- [Numbers](https://apple.com/numbers)
+- [Pages](https://apple.com/pages)
+- [Rectangle](https://rectangleapp.com)
+- [Spotify](https://spotify.com)
+- [TablePlus](https://tableplus.com)
+- [The Unarchiver](https://theunarchiver.com)
+- [Things](https://culturedcode.com/things)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [VLC](https://videolan.org/vlc)
