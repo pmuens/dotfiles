@@ -17,7 +17,7 @@
 
 Go through the checklist above. Double check that everything is backed up.
 
-Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly install the latest macOS version.
+Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly install the latest macOS version. Note that since macOS Monterey there's the option to [restore the Mac to factory settings](https://support.apple.com/en-us/HT212749).
 
 ## Setup
 
