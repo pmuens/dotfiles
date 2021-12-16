@@ -25,6 +25,7 @@
     neovim
     nixfmt
     nodejs
+    openssl
     poetry
     python3
     ripgrep
