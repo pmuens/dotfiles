@@ -33,6 +33,24 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 10. `darwin-rebuild switch`
 11. `home-manager switch`
 
+## Dock
+
+Order from left to right.
+
+1. Finder
+2. App Store
+3. Safari
+4. Mail
+5. Preview
+6. Calendar
+7. Bitwarden
+8. Settings
+9. Terminal
+10. Things
+11. Visual Studio Code
+12. Firefox
+13. Notes
+
 ## Other Applications
 
 - [Amphetamine](https://apps.apple.com/app/amphetamine/id937984704)
