@@ -4,14 +4,14 @@
 
 ### Before re-installing macOS
 
-- Are all cloud services you're using fully synced?
-- Did you commit and push any changes to this repo?
-- Did you copy important files to an external HDD?
-- Did you backup your public- and private keys?
-- Did you sign out of accounts in all browsers?
-- Did you remove your Mac from iCloud?
-- Did you stop FileVault?
-- Is the HDD fully decrypted?
+- [ ] Are all cloud services you're using fully synced?
+- [ ] Did you commit and push any changes to this repo?
+- [ ] Did you copy important files to an external HDD?
+- [ ] Did you backup your public- and private keys?
+- [ ] Did you sign out of accounts in all browsers?
+- [ ] Did you remove your Mac from iCloud?
+- [ ] Did you stop FileVault?
+- [ ] Is the HDD fully decrypted?
 
 ### Re-installing macOS
 
