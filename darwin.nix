@@ -35,7 +35,6 @@
     tmux
     tree
     unzip
-    watch
     wget
     whois
     yarn
