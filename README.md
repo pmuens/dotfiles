@@ -132,3 +132,7 @@ Order from left to right.
 - [Getting Started with Dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles)
   - [driesvints/dotfiles](https://github.com/driesvints/dotfiles)
   - [Everything You Need to Know About Dotfiles](https://laracasts.com/series/guest-spotlight/episodes/1)
+
+### Misc
+
+- [Eizo Monitor Test](https://www.eizo.de/monitortest/)
