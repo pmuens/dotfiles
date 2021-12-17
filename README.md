@@ -48,7 +48,10 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 
 1. Install [Nix](https://nixos.org/guides/install-nix.html)
 2. Install [nix-darwin](https://github.com/LnL7/nix-darwin)
+   1. Accept all prompts
 3. Install [home-manager](https://github.com/nix-community/home-manager)
+   1. Use the standalone installation
+   2. Follow Nixpkgs `master` / unstable channel
 4. Clone this repo to `~/dotfiles`
 5. `rm ~/.nixpkgs/darwin-configuration.nix`
 6. `ln -sf ~/dotfiles/darwin.nix ~/.nixpkgs/darwin-configuration.nix`
@@ -57,6 +60,20 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 9. Update `darwin.nix` and `home.nix` with custom config (optional)
 10. `darwin-rebuild switch`
 11. `home-manager switch`
+12. `mkdir -p ~/code/pmuens`
+13. `git config --list`
+14. Unzip and move `keys` directory to `~/Downloads`
+15. `cp ~/Downloads/keys/id_rsa ~/.ssh`
+16. `cp ~/Downloads/keys/id_rsa.pub ~/.ssh`
+17. `cp ~/Downloads/keys/github-pmuens ~/.ssh`
+18. `cp ~/Downloads/keys/github-pmuens.pub ~/.ssh`
+19. Repeat procedure for other keys
+20. `ls -lisa ~/.ssh`
+21. `gpg --import ~/Downloads/keys/philipp.muens.public.key`
+22. `gpg --import ~/Downloads/keys/philipp.muens.private.key`
+23. Repeat procedure for other keys
+24. `gpg --list-secret-keys --keyid-format=long`
+25. Remove `keys` directory
 
 ## Dock
 
