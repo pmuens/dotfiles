@@ -13,6 +13,25 @@
 - [ ] Did you stop FileVault?
 - [ ] Is the HDD fully decrypted?
 
+### Exporting Keys
+
+- `ls -lisa ~/.ssh`
+- `mkdir -p ~/Downloads/keys`
+- `cp ~/.ssh/id_rsa ~/Downloads/keys`
+- `cp ~/.ssh/id_rsa.pub ~/Downloads/keys`
+- `cp ~/.ssh/github-pmuens ~/Downloads/keys`
+- `cp ~/.ssh/github-pmuens.pub ~/Downloads/keys`
+- Repeat procedure for other keys
+
+- `gpg --list-secret-keys --keyid-format=long`
+- `gpg --export -a "Philipp Muens" > ~/Downloads/keys/philipp.muens.public.key`
+- `gpg --export-secret-key -a "Philipp Muens" > ~/Downloads/keys/philipp.muens.private.key`
+- Repeat procedure for other keys
+
+- Zip and encrypt `keys` directory
+- Move Zip file to storage device
+- Remove `keys` directory
+
 ### Re-installing macOS
 
 Go through the checklist above. Double check that everything is backed up.
