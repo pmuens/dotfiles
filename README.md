@@ -53,6 +53,7 @@ Order from left to right.
 
 ## Other Applications
 
+- [AdGuard for Safari](https://adguard.com/adguard-safari/overview.html)
 - [Amphetamine](https://apps.apple.com/app/amphetamine/id937984704)
 - [AppCleaner](https://freemacsoft.net/appcleaner)
 - [Bitwarden](https://bitwarden.com)
