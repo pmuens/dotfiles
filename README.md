@@ -19,6 +19,12 @@ Go through the checklist above. Double check that everything is backed up.
 
 Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly install the latest macOS version. Note that since macOS Monterey there's the option to [restore the Mac to factory settings](https://support.apple.com/en-us/HT212749).
 
+### During macOS Installation
+
+- [ ] Change language to English (US)
+- [ ] Change the computer's account name to `philipp`
+- [ ] Change the computer's full name to `Philipp Muens`
+
 ## Setup
 
 1. Install [Nix](https://nixos.org/guides/install-nix.html)
