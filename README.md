@@ -75,6 +75,133 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 24. `gpg --list-secret-keys --keyid-format=long`
 25. Remove `keys` directory
 
+## Post Setup
+
+- macOS
+  - Open Launchpad -> Move Installed Applications to Separate Window / Space
+  - Right Click on Desktop -> Sort By -> Snap to Grid
+  - System Preferences -> [Change Profile Picture via Drag and Drop]
+  - System Preferences -> Touch ID -> [Rename Finger]
+  - System Preferences -> Siri -> Enable Ask Siri -> [Uncheck]
+  - System Preferences -> Desktop & Screen Saver -> "Screen Saver" Tab -> Show screen saver after -> [Uncheck]
+  - System Preferences -> Trackpad -> "Point & Click" Tab -> Click -> Firm
+  - System Preferences -> Trackpad -> "Point & Click" Tab -> Tab to click -> [Check]
+  - System Preferences -> Battery -> Battery -> Turn display off after -> Never
+  - System Preferences -> Battery -> Power Adapter -> Turn display off after -> Never
+  - System Preferences -> Security & Privacy -> "General" Tab -> Require password [immediately] after sleep or screen saver begins
+  - System Preferences -> Mission Control -> Automatically rearrange Spaces based on most recent use -> [Uncheck]
+  - System Preferences -> Sound -> Show Sound in menu bar -> always
+  - System Preferences -> Displays -> Night Shift... -> Schedule -> Sunset to Sunrise
+  - System Preferences -> Internet Accounts -> [Activate E-Mail Accounts]
+  - System Preferences -> Notifications & Focus -> [Configure Individual App Notifications]
+  - System Preferences -> Bluetooth -> Show Bluetooth in menu bar -> [Check]
+  - System Preferences -> Network -> Wi-Fi -> Advanced -> "DNS" Tab -> [Setup CloudFlare DNS](https://developers.cloudflare.com/1.1.1.1/setup-1.1.1.1/macos)
+  - System Preferences -> Sharing -> Computer Name -> [Update]
+  - System Preferences -> Sharing -> Computer Name -> Edit -> [Update]
+  - System Preferences -> Apple ID -> Optimize Mac Storage -> [Uncheck]
+- AdGuard for Safari
+  - General -> Launch AdGuard for Safari at Login -> [Check]
+  - Filters -> Annoyances -> [Check]
+  - Filters -> Annoyances -> Fanboy's Annoyances
+  - Filters -> Annoyances -> I don't care about cookies
+  - Filters -> Language-specific -> [Check]
+  - Filters -> Language-specific -> AdGuard German filter
+- Amphetamine
+  - Don't show this window again -> [Check]
+  - Preferences —> General —> Launch Amphetamine at login -> [Check]
+  - Preferences —> General —> Start session when Amphetamine launches -> [Check]
+  - Preferences —> General —> Start session after waking from sleep -> [Check]
+  - Preferences —> General —> Reduce motion -> [Check]
+  - Preferences —> Appearance —> Menu Bar Image -> [Pill (outline)]
+  - Preferences —> Appearance —> Use low opacity when inactive
+  - Click on Icon -> Start New Session -> Indefinitely
+- Finder
+  - Preferences -> General -> New Finder windows show -> iCloud Drive
+  - Preferences -> Tags -> [Check Tags]
+  - [Finder Window] -> Show items as icons, in a list, in columns or in a gallery
+  - [Finder Window] -> [Resize Window]
+  - [Finder Window] -> [Sort by "Name" Ascending]
+- Firefox
+  - Preferences -> Sync -> Sign in to sync
+  - Preferences -> General -> Startup -> Open previous windows and tabs -> [Check]
+  - Preferences -> General -> Startup -> Always check if Firefox is your default browser -> [Uncheck]
+  - Preferences -> General -> Tabs -> Confirm before quitting with CMD + Q -> [Check]
+  - Preferences -> General -> Language -> English (United States)
+  - Preferences -> Home -> New Windows and Tabs -> Homepage and new windows -> Blank Page
+  - Preferences -> Home -> New Windows and Tabs -> New tabs -> Blank Page
+  - Preferences -> Privacy & Security -> Firefox Data Collection and Use -> [Uncheck all]
+  - Right Click next to Search Bar -> Customize Toolbar -> [Remove "Flexible Space"]
+  - Right Click next to Search Bar -> Customize Toolbar -> [Remove "Save to Pocket"]
+  - Right Click on Extension -> Remove from Toolbar
+  - Open `about:config` -> Accept the Risk and Continue -> `extensions.pocket.enabled` -> [Click on Toggle]
+- Flycut
+  - Do not show this message again -> [Check]
+  - System Preferences -> Security & Privacy -> "Privacy" Tab -> "Accessibility" Row -> [Add Flycut App]
+  - Preferences -> General -> Launch Flycut on login
+  - Preferences -> General -> Appearance -> Menu item icon -> Black scissors
+- Mail
+  - Preferences -> General -> Nes messages sound -> None
+- Rectangle
+  - System Preferences -> Security & Privacy -> "Privacy" Tab -> "Accessibility" Row -> [Add Rectangle App]
+  - Preferences -> Check for updates automatically -> [Check]
+- Safari
+  - Preferences -> General -> Open "safe" files after downloading -> [Uncheck]
+  - Preferences -> General -> Safari opens with -> All windows from last session
+  - Preferences -> General -> New windows open with -> Empty Page
+  - Preferences -> General -> New tabs open with -> Empty Page
+  - Preferences -> General -> Homepage -> [Remove Content]
+  - Preferences -> Advanced -> Show full website address -> [Check]
+  - Preferences -> AutoFill -> AutoFill web forms -> [Uncheck all]
+  - View -> Show Status Bar
+  - Sign In to Web Apps
+- Terminal
+  - Preferences -> Profiles -> Pro -> [Set as Default]
+  - Preferences -> Profiles -> "Window" Tab -> Window Size -> Columns: 215
+  - Preferences -> Profiles -> "Window" Tab -> Window Size -> Rows: 50
+  - Preferences -> Profiles -> "Advanced" Tab -> Audible bell -> [Uncheck]
+- Things
+  - Preferences -> Things Cloud -> Turn On -> [Log In]
+  - Preferences -> Calendar -> Show Calendar Events in Today and Upcoming lists -> [Check]
+- Visual Studio Code
+  - Show welcome page on startup -> [Uncheck]
+  - Preferences -> Extensions -> [Install Extensions]
+    - `zhuangtongfa.material-theme`
+    - `dbaeumer.vscode-eslint`
+    - `file-icons.file-icons`
+    - `eamodio.gitlens`
+    - `esbenp.prettier-vscode`
+    - `bbenoist.nix`
+    - `ms-python.python`
+    - `ms-python.vscode-pylance`
+    - `mhutchie.git-graph`
+    - `tombonnike.vscode-status-bar-format-toggle`
+    - `editorconfig.editorconfig`
+    - `streetsidesoftware.code-spell-checker`
+    - `matklad.rust-analyzer`
+    - `juanblanco.solidity`
+    - `be5invis.toml`
+    - `visualstudioexptteam.vscodeintellicode`
+    - `yzhang.markdown-all-in-one`
+    - `kortina.vscode-markdown-notes`
+    - `golang.go`
+    - `bradlc.vscode-tailwindcss`
+    - `jgclark.vscode-todo-highlight`
+  - Right Click on Explorer Pane —> Open Editors —> [Uncheck]
+  - CMD + Shift + P —> "Shell Command: Install 'code' command in PATH"
+  - CMD + Shift + P —> "Configure Display Language" —> en
+  - Preferences [Search] -> `Explorer: Auto Reveal` -> false
+  - Preferences [Search] -> `Editor: Render Whitespace` -> all
+  - Preferences [Search] -> `Editor: Scroll Beyond Last Line` -> [Uncheck]
+  - Preferences [Search] -> `Editor: Accept Suggestions On Enter` -> off
+  - Preferences [Search] -> `Files: Insert Final Newline` -> [Check]
+  - Preferences [Search] -> `Files: Trim Trailing Whitespace` -> [Check]
+  - Preferences [Search] -> `Editor: Format On Save` -> [Check]
+  - Preferences [Search] -> `Editor: Format On Paste` -> [Check]
+  - Preferences [Search] -> `Editor: Tab Size` -> 2
+  - Preferences [Search] -> `Editor: Default Formatter` -> Prettier - Code formatter
+  - Preferences [Search] -> `Windows: Open Folders In New Window` -> on
+  - Preferences [Search] -> `Windows: New Window Dimensions` -> maximized
+
 ## Dock
 
 Order from left to right.
