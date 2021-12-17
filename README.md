@@ -38,18 +38,19 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 Order from left to right.
 
 1. Finder
-2. App Store
-3. Safari
-4. Mail
-5. Preview
-6. Calendar
-7. Bitwarden
-8. Settings
-9. Terminal
-10. Things
-11. Visual Studio Code
-12. Firefox
-13. Notes
+2. Launchpad
+3. App Store
+4. Safari
+5. Mail
+6. Preview
+7. Calendar
+8. Bitwarden
+9. System Preferences
+10. Terminal
+11. Things
+12. Visual Studio Code
+13. Firefox
+14. Notes
 
 ## Other Applications
 
