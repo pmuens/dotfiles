@@ -4,14 +4,14 @@
 
 ### Before re-installing macOS
 
-- [ ] Are all cloud services you're using fully synced?
-- [ ] Did you commit and push any changes to this repo?
-- [ ] Did you copy important files to an external HDD?
-- [ ] Did you backup your public- and private keys?
-- [ ] Did you sign out of accounts in all browsers?
-- [ ] Did you remove your Mac from iCloud?
-- [ ] Did you stop FileVault?
-- [ ] Is the HDD fully decrypted?
+- Are all cloud services you're using fully synced?
+- Did you commit and push any changes to this repo?
+- Did you copy important files to an external HDD?
+- Did you backup your public- and private keys?
+- Did you sign out of accounts in all browsers?
+- Did you remove your Mac from iCloud?
+- Did you stop FileVault?
+- Is the HDD fully decrypted?
 
 ### Exporting Keys
 
@@ -40,9 +40,9 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 
 ### During macOS Installation
 
-- [ ] Change language to English (US)
-- [ ] Change the computer's account name to `philipp`
-- [ ] Change the computer's full name to `Philipp Muens`
+- Change language to English (US)
+- Change the computer's account name to `philipp`
+- Change the computer's full name to `Philipp Muens`
 
 ## Setup
 
