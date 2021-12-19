@@ -55,23 +55,27 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 6. `ln -sf ~/dotfiles/darwin.nix ~/.nixpkgs/darwin-configuration.nix`
 7. `rm ~/.config/nixpkgs/home.nix`
 8. `ln -sf ~/dotfiles/home.nix ~/.config/nixpkgs/home.nix`
-9. Update `darwin.nix` and `home.nix` with custom config (optional)
+9. Update [`darwin.nix`](./darwin.nix) and [`home.nix`](./home.nix) with custom config (optional)
+   1. E.g. add additional `programs.ssh` and `programs.git` config in [`home.nix`](./home.nix)
 10. `darwin-rebuild switch`
 11. `home-manager switch`
-12. `mkdir -p ~/code/pmuens`
-13. `git config --list`
-14. Unzip and move `keys` directory to `~/Downloads`
-15. `cp ~/Downloads/keys/id_rsa ~/.ssh`
-16. `cp ~/Downloads/keys/id_rsa.pub ~/.ssh`
-17. `cp ~/Downloads/keys/github-pmuens ~/.ssh`
-18. `cp ~/Downloads/keys/github-pmuens.pub ~/.ssh`
-19. Repeat procedure for other keys
-20. `ls -lisa ~/.ssh`
-21. `gpg --import ~/Downloads/keys/philipp.muens.public.key`
-22. `gpg --import ~/Downloads/keys/philipp.muens.private.key`
-23. Repeat procedure for other keys
-24. `gpg --list-secret-keys --keyid-format=long`
-25. Remove `keys` directory
+12. `nixfmt ~/dotfiles/darwin.nix`
+13. `nixfmt ~/dotfiles/home.nix`
+14. `mkdir -p ~/code/pmuens/pmuens`
+15. Repeat procedure for other users
+16. `git config --list`
+17. Unzip and move `keys` directory to `~/Downloads`
+18. `cp ~/Downloads/keys/id_rsa ~/.ssh`
+19. `cp ~/Downloads/keys/id_rsa.pub ~/.ssh`
+20. `cp ~/Downloads/keys/github-pmuens ~/.ssh`
+21. `cp ~/Downloads/keys/github-pmuens.pub ~/.ssh`
+22. Repeat procedure for other keys
+23. `ls -lisa ~/.ssh`
+24. `gpg --import ~/Downloads/keys/philipp.muens.public.key`
+25. `gpg --import ~/Downloads/keys/philipp.muens.private.key`
+26. Repeat procedure for other keys
+27. `gpg --list-secret-keys --keyid-format=long`
+28. Remove `keys` directory
 
 ## Post Setup
 
