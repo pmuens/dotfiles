@@ -167,6 +167,7 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 - Visual Studio Code
   - Show welcome page on startup -> [Uncheck]
   - Preferences -> Extensions -> [Install Extensions]
+    - `formulahendry.auto-rename-tag`
     - `zhuangtongfa.material-theme`
     - `dbaeumer.vscode-eslint`
     - `file-icons.file-icons`
