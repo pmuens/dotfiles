@@ -120,6 +120,7 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 - Finder
   - Preferences -> General -> New Finder windows show -> iCloud Drive
   - Preferences -> Tags -> [Check Tags]
+  - Preferences -> Sidebar -> Favorites -> [Home Directory] -> [Check]
   - [Finder Window] -> Show items as icons, in a list, in columns or in a gallery
   - [Finder Window] -> [Resize Window]
   - [Finder Window] -> [Sort by "Name" Ascending]
