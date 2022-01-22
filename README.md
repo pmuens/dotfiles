@@ -169,6 +169,7 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
   - Preferences -> Extensions -> [Install Extensions]
     - `formulahendry.auto-rename-tag`
     - `zhuangtongfa.material-theme`
+    - `denoland.vscode-deno`
     - `dbaeumer.vscode-eslint`
     - `file-icons.file-icons`
     - `eamodio.gitlens`
