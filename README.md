@@ -76,6 +76,7 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 26. Repeat procedure for other keys
 27. `gpg --list-secret-keys --keyid-format=long`
 28. Remove `keys` directory
+29. `cd ~/dotfiles` and update the remote Git URL via `git remote set-url origin <url>`
 
 ## Post Setup
 
