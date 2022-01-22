@@ -13,6 +13,7 @@
     bat
     ctags
     curl
+    deno
     fd
     fzf
     git
