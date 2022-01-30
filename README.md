@@ -122,7 +122,7 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
   - Preferences -> General -> New Finder windows show -> iCloud Drive
   - Preferences -> Tags -> [Check Tags]
   - Preferences -> Sidebar -> Favorites -> [Home Directory] -> [Check]
-  - [Finder Window] -> Show items as icons, in a list, in columns or in a gallery
+  - [Finder Window] -> View -> As List -> [Repeat for all Sidebar Elements]
   - [Finder Window] -> [Resize Window]
   - [Finder Window] -> [Sort by "Name" Ascending]
 - Firefox
@@ -145,6 +145,9 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
   - Preferences -> General -> Appearance -> Menu item icon -> Black scissors
 - Mail
   - Preferences -> General -> Nes messages sound -> None
+- NetNewsWire
+  - Preferences -> Accounts -> [Deactivate "On My Mac"]
+  - Preferences -> Accounts -> [Add and Activate iCloud]
 - Rectangle
   - System Preferences -> Security & Privacy -> "Privacy" Tab -> "Accessibility" Row -> [Add Rectangle App]
   - Preferences -> Check for updates automatically -> [Check]
@@ -157,6 +160,8 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
   - Preferences -> Advanced -> Show full website address -> [Check]
   - Preferences -> AutoFill -> AutoFill web forms -> [Uncheck all]
   - View -> Show Status Bar
+  - View -> Customize Toolbar -> [Drag iCloud Tabs icon into Toolbar]
+  - View -> Customize Toolbar -> [Remove Flexible Space from Toolbar]
   - Sign In to Web Apps
 - Terminal
   - Preferences -> Profiles -> Pro -> [Set as Default]
