@@ -240,6 +240,7 @@ Order from left to right.
 - [GitUp](https://gitup.co)
 - [Keynote](https://apple.com/keynote)
 - [Noizio](https://noiz.io)
+- [NetNewsWire](https://netnewswire.com)
 - [Numbers](https://apple.com/numbers)
 - [Pages](https://apple.com/pages)
 - [Rectangle](https://rectangleapp.com)
