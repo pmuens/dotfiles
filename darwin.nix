@@ -11,6 +11,7 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
     bat
+    clang
     ctags
     curl
     deno
