@@ -184,6 +184,7 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
     - `bbenoist.nix`
     - `ms-python.python`
     - `ms-python.vscode-pylance`
+    - `rangav.vscode-thunder-client`
     - `standard.vscode-standard`
     - `mhutchie.git-graph`
     - `tombonnike.vscode-status-bar-format-toggle`
