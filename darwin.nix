@@ -28,6 +28,7 @@
     neovim
     nixfmt
     nodejs
+    nodePackages.pnpm
     openssl
     poetry
     python3
