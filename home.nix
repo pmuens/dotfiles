@@ -41,7 +41,7 @@
     extraConfig = { color.ui = true; };
     signing = {
       key = "raute1337@gmx.de";
-      signByDefault = true;
+      signByDefault = false;
     };
     # NOTE: Keep in sync with `programs.ssh` config
     includes = [{
@@ -52,7 +52,7 @@
           email = "raute1337@gmx.de";
           signingkey = "raute1337@gmx.de";
         };
-        commit = { gpgsign = true; };
+        commit = { gpgsign = false; };
       };
     }
     # {
@@ -63,7 +63,7 @@
     #       email = "jdoe@example.com";
     #       signingkey = "jdoe@example.com";
     #     };
-    #     commit = { gpgsign = true; };
+    #     commit = { gpgsign = false; };
     #   };
     # }
       ];
