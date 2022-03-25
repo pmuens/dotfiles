@@ -43,6 +43,7 @@
     wget
     whois
     yarn
+    yggdrasil
     zip
     zsh
   ];
