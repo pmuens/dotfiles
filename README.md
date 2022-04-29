@@ -176,7 +176,6 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
   - Preferences -> Extensions -> [Install Extensions]
     - `formulahendry.auto-rename-tag`
     - `zhuangtongfa.material-theme`
-    - `denoland.vscode-deno`
     - `dbaeumer.vscode-eslint`
     - `file-icons.file-icons`
     - `eamodio.gitlens`
@@ -195,7 +194,6 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
     - `be5invis.toml`
     - `visualstudioexptteam.vscodeintellicode`
     - `yzhang.markdown-all-in-one`
-    - `kortina.vscode-markdown-notes`
     - `golang.go`
     - `bradlc.vscode-tailwindcss`
     - `jgclark.vscode-todo-highlight`
