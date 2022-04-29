@@ -37,10 +37,10 @@
   programs.git = {
     enable = true;
     userName = "Philipp Muens";
-    userEmail = "raute1337@gmx.de";
+    userEmail = "philipp@muens.io";
     extraConfig = { color.ui = true; };
     signing = {
-      key = "raute1337@gmx.de";
+      key = "philipp@muens.io";
       signByDefault = false;
     };
     # NOTE: Keep in sync with `programs.ssh` config
@@ -49,8 +49,8 @@
       contents = {
         user = {
           name = "Philipp Muens";
-          email = "raute1337@gmx.de";
-          signingkey = "raute1337@gmx.de";
+          email = "philipp@muens.io";
+          signingkey = "philipp@muens.io";
         };
         commit = { gpgsign = false; };
       };
