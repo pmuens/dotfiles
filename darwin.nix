@@ -18,6 +18,7 @@
     fd
     fzf
     git
+    git-remote-gcrypt
     gnupg
     go
     htop
