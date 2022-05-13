@@ -29,6 +29,7 @@
     nixfmt
     nodejs
     nodePackages.pnpm
+    openjdk
     openssl
     poetry
     python3
