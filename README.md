@@ -200,7 +200,6 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
     - `tiehuis.zig`
     - `augusterame.zls-vscode`
     - `alygin.vscode-tlaplus`
-    - `bierner.markdown-preview-github-styles`
   - Right Click on Explorer Pane —> Open Editors —> [Uncheck]
   - CMD + Shift + P —> "Shell Command: Install 'code' command in PATH"
   - CMD + Shift + P —> "Configure Display Language" —> en
