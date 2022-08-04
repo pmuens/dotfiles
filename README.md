@@ -243,7 +243,7 @@ Order from left to right.
 - [AppCleaner](https://freemacsoft.net/appcleaner)
 - [Bitwarden](https://bitwarden.com)
 - [Docker](https://docker.com)
-- [Exporter](https://apps.apple.com/de/app/exporter/id1099120373)
+- [Exporter](https://apps.apple.com/app/exporter/id1099120373)
 - [Firefox](https://mozilla.org/firefox)
 - [Flycut](https://apps.apple.com/app/flycut-clipboard-manager/id442160987)
 - [GitUp](https://gitup.co)
@@ -253,12 +253,15 @@ Order from left to right.
 - [Numbers](https://apple.com/numbers)
 - [Pages](https://apple.com/pages)
 - [Rectangle](https://rectangleapp.com)
+- [Signal](https://signal.org)
 - [Spotify](https://spotify.com)
 - [TablePlus](https://tableplus.com)
+- [Telegram](https://apps.apple.com/app/telegram/id747648890)
 - [The Unarchiver](https://theunarchiver.com)
 - [Things](https://culturedcode.com/things)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [VLC](https://videolan.org/vlc)
+- [WireGuard](https://www.wireguard.com)
 
 ## Useful Resources
 
