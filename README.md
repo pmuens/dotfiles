@@ -242,6 +242,7 @@ Order from left to right.
 - [Amphetamine](https://apps.apple.com/app/amphetamine/id937984704)
 - [AppCleaner](https://freemacsoft.net/appcleaner)
 - [Bitwarden](https://bitwarden.com)
+- [Brave](https://brave.com)
 - [Docker](https://docker.com)
 - [Exporter](https://apps.apple.com/app/exporter/id1099120373)
 - [Firefox](https://mozilla.org/firefox)
