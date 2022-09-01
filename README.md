@@ -118,6 +118,20 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
   - Preferences —> Appearance —> Menu Bar Image -> [Pill (outline)]
   - Preferences —> Appearance —> Use low opacity when inactive
   - Click on Icon -> Start New Session -> Indefinitely
+- Brave
+  - Settings -> Appearance -> Use wide address bar -> [Check]
+  - Settings -> Appearance -> Show Brave Rewards icon in address bar -> [Uncheck]
+  - Settings -> New tab page -> New tab pages shows -> Blank page
+  - Settings -> Privacy and security -> Automatically send daily usage ping to Brave -> [Uncheck]
+  - Settings -> Sync -> Start using sync -> [Sync Device(s)]
+  - Settings -> Sync -> Manage your synced devices -> Sync Settings -> Sync everything -> [Check]
+  - Settings -> Search engine -> Search engine used in the address bar -> Google
+  - Settings -> Auto-fill -> Passwords -> Offer to save passwords -> [Uncheck]
+  - Settings -> Auto-fill -> Passwords -> Auto Sign-in -> [Uncheck]
+  - Settings -> Auto-fill -> Payment methods -> Save and fill payment methods -> [Uncheck]
+  - Settings -> Auto-fill -> Payment methods -> Allow sites to check if you have payment methods saved -> [Uncheck]
+  - Settings -> Auto-fill -> Addresses and more -> Save and fill addresses -> [Uncheck]
+  - Settings -> Help tips -> Show warning before quitting with CMD + Q -> [Check]
 - Finder
   - Preferences -> General -> New Finder windows show -> iCloud Drive
   - Preferences -> Tags -> [Check Tags]
