@@ -83,6 +83,7 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
 - macOS
   - Open Launchpad -> Move Installed Applications to Separate Window / Space
   - Right Click on Desktop -> Sort By -> Snap to Grid
+  - System Preferences -> Language & Region -> Preferred languages -> [English (US) - Primary] and [German (Germany)]
   - System Preferences -> [Change Profile Picture via Drag and Drop]
   - System Preferences -> Touch ID -> [Rename Finger]
   - System Preferences -> Siri -> Enable Ask Siri -> [Uncheck]
