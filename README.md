@@ -93,6 +93,7 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
   - System Preferences -> Battery -> Battery -> Turn display off after -> Never
   - System Preferences -> Battery -> Power Adapter -> Turn display off after -> Never
   - System Preferences -> Security & Privacy -> "General" Tab -> Require password [immediately] after sleep or screen saver begins
+  - System Preferences -> Security & Privacy -> "General" Tab -> Use your Apple Watch to unlock apps and your Mac -> [Check]
   - System Preferences -> Mission Control -> Automatically rearrange Spaces based on most recent use -> [Uncheck]
   - System Preferences -> Sound -> Show Sound in menu bar -> always
   - System Preferences -> Displays -> Night Shift... -> Schedule -> Sunset to Sunrise
