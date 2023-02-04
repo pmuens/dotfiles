@@ -18,6 +18,7 @@
     fd
     fzf
     git
+    git-branchless
     git-remote-gcrypt
     gnupg
     go
