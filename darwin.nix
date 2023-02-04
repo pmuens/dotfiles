@@ -39,6 +39,7 @@
     rustup
     shellcheck
     sqlite
+    stgit
     tig
     tmux
     tree
