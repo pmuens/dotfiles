@@ -194,6 +194,7 @@ Follow [this guide](https://www.imore.com/how-do-clean-install-macos) to cleanly
     - `dbaeumer.vscode-eslint`
     - `file-icons.file-icons`
     - `eamodio.gitlens`
+    - `vadimcn.vscode-lldb`
     - `esbenp.prettier-vscode`
     - `bbenoist.nix`
     - `ms-python.python`
