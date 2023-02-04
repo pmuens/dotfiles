@@ -24,6 +24,7 @@
     htop
     jq
     lazygit
+    libiconv
     lscolors
     mkcert
     neovim
