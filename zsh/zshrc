@@ -1,6 +1,7 @@
 # Exports
 export DOTFILES="$HOME/.dotfiles"
 export PATH="/opt/homebrew/bin:$PATH"
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Prompt(s)
 PROMPT='%1~ %L %# '
