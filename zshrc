@@ -1,5 +1,6 @@
-# Aliases
-alias lls='ls -lAFh'
+# Exports
+export DOTFILES="$HOME/.dotfiles"
+export PATH="/opt/homebrew/bin:$PATH"
 
 # Prompt(s)
 PROMPT='%1~ %L %# '
@@ -10,5 +11,6 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
-# Exports
-export PATH="/opt/homebrew/bin:$PATH"
+precmd() {
+  source "$DOTFILES/aliases.zsh"
+}
