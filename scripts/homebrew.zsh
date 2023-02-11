@@ -10,3 +10,5 @@ else
 fi
 
 echo ""
+
+brew bundle --verbose
