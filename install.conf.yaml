@@ -6,7 +6,7 @@
 
 - link:
     ~/.zshrc:
-    ~/.gitconfig:
+    ~/.gitconfig: git/gitconfig
     ~/.ssh/config: ssh/config
 
 - create:
