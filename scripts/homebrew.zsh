@@ -11,4 +11,4 @@ fi
 
 echo ""
 
-brew bundle --verbose
+brew bundle --file "$DOTFILES/homebrew/Brewfile" --verbose
