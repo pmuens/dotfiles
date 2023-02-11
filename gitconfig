@@ -1,0 +1,14 @@
+[user]
+	name = Philipp Muens
+	email = philipp@muens.io
+	signingKey = philipp@muens.io
+
+[color]
+	ui = true
+
+[commit]
+	gpgSign = false
+
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
