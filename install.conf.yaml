@@ -5,7 +5,7 @@
 - clean: ["~"]
 
 - link:
-    ~/.zshrc:
+    ~/.zshrc: zsh/zshrc
     ~/.gitconfig: git/gitconfig
     ~/.ssh/config: ssh/config
 

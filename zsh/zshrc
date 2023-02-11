@@ -12,5 +12,5 @@ function mkcd() {
 }
 
 precmd() {
-  source "$DOTFILES/aliases.zsh"
+  source "$DOTFILES/zsh/aliases.zsh"
 }
