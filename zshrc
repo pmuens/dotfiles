@@ -9,3 +9,6 @@ RPROMPT='%*'
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
+
+# Exports
+export PATH="/opt/homebrew/bin:$PATH"
