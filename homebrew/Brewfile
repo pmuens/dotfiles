@@ -11,3 +11,18 @@ brew "httpie"
 brew "mas"
 # Open-source code editor
 cask "visual-studio-code"
+mas "AdGuard for Safari", id: 1440147259
+mas "Amphetamine", id: 937984704
+mas "Bitwarden", id: 1352778147
+mas "Exporter", id: 1099120373
+mas "Flycut", id: 442160987
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Noizio", id: 928871589
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Telegram", id: 747648890
+mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
+mas "WireGuard", id: 1451685025
