@@ -11,4 +11,8 @@ fi
 
 echo ""
 
+# TODO: Currently there's no support for the `--no-quarantine` option.
+# We've exported it in `zshrc` via `HOMEBREW_CASK_OPTS`.
+# See: https://github.com/Homebrew/homebrew-bundle/issues/474
+
 brew bundle --file "$DOTFILES/homebrew/Brewfile" --verbose

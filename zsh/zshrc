@@ -2,6 +2,7 @@
 export DOTFILES="$HOME/.dotfiles"
 export PATH="/opt/homebrew/bin:$PATH"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Prompt(s)
 PROMPT='%1~ %L %# '
