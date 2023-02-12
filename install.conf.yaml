@@ -8,6 +8,18 @@
     ~/.zshrc: zsh/zshrc
     ~/.gitconfig: git/gitconfig
     ~/.ssh/config: ssh/config
+    ~/Library/Application Support/Code/User/settings.json:
+      path: vscode/settings.json
+      create: true
+      force: true
+    ~/Library/Application Support/Code/User/keybindings.json:
+      path: vscode/keybindings.json
+      create: true
+      force: true
+    ~/Library/Application Support/Code/User/snippets:
+      path: vscode/snippets
+      create: true
+      force: true
 
 - create:
     - ~/code/pmuens/pmuens
@@ -15,5 +27,8 @@
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - command: ./scripts/homebrew.zsh
+      stdout: true
+      stderr: true
+    - command: ./scripts/vscode.zsh
       stdout: true
       stderr: true

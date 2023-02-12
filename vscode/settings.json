@@ -1,0 +1,42 @@
+{
+  "editor.tabSize": 2,
+  "editor.folding": false,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.renderWhitespace": "all",
+  "editor.suggestSelection": "first",
+  "editor.scrollBeyondLastLine": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.showFoldingControls": "mouseover",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "window.openFoldersInNewWindow": "on",
+  "window.newWindowDimensions": "maximized",
+
+  "workbench.tips.enabled": false,
+  "workbench.iconTheme": "file-icons",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "extensions.ignoreRecommendations": true,
+
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+
+  "debug.allowBreakpointsEverywhere": true,
+
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "telemetry.telemetryLevel": "off"
+}
