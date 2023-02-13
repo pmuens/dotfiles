@@ -8,6 +8,10 @@
     ~/.zshrc: zsh/zshrc
     ~/.gitconfig: git/gitconfig
     ~/.ssh/config: ssh/config
+    ~/.config/bat:
+      path: bat
+      create: true
+      force: true
     ~/Library/Application Support/Code/User/settings.json:
       path: vscode/settings.json
       create: true
