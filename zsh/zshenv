@@ -1,0 +1,9 @@
+# Exports
+export DOTFILES="$HOME/.dotfiles"
+export PATH="/opt/homebrew/bin:$PATH"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
+
+# Functions
+function mkcd() {
+  mkdir -p "$@" && cd "$_";
+}
