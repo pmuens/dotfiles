@@ -32,14 +32,14 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - command: ./scripts/homebrew.zsh
+    - command: ./scripts/setup-homebrew.zsh
       stdin: true
       stdout: true
       stderr: true
-    - command: ./scripts/zsh.zsh
+    - command: ./scripts/setup-zsh.zsh
       stdin: true
       stdout: true
       stderr: true
-    - command: ./scripts/vscode.zsh
+    - command: ./scripts/setup-vscode.zsh
       stdout: true
       stderr: true
