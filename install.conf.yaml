@@ -35,6 +35,9 @@
     - command: ./scripts/homebrew.zsh
       stdout: true
       stderr: true
+    - command: ./scripts/zsh.zsh
+      stdout: true
+      stderr: true
     - command: ./scripts/vscode.zsh
       stdout: true
       stderr: true

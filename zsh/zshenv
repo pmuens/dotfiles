@@ -1,6 +1,14 @@
+# Homebrew makes a distiction between Apple Silicon and Intel.
+# See: https://stackoverflow.com/a/71186857 and https://stackoverflow.com/a/65259353
+# TODO: Ensure that this is always up-to-date.
+HOMEBREW_BIN_PATH="/usr/local/bin"
+if [ $(uname -p) = 'arm' ]; then
+  HOMEBREW_BIN_PATH="/opt/homebrew/bin"
+fi
+
 # Exports
 export DOTFILES="$HOME/.dotfiles"
-export PATH="/opt/homebrew/bin:$PATH"
+export PATH="$HOMEBREW_BIN_PATH:$PATH"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Functions
