@@ -9,6 +9,8 @@ brew "exa"
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# CLI tool that moves files or folder to the trash
+brew "trash"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Open-source code editor
