@@ -7,6 +7,7 @@
   "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "editor.scrollBeyondLastLine": false,
+  "editor.fontFamily": "Hack Nerd Font",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.showFoldingControls": "mouseover",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
