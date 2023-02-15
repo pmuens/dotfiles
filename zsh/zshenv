@@ -1,10 +1,13 @@
 # Homebrew makes a distiction between Apple Silicon and Intel.
 # See: https://stackoverflow.com/a/71186857 and https://stackoverflow.com/a/65259353
 # TODO: Ensure that this is always up-to-date.
-HOMEBREW_BIN_PATH="/usr/local/bin"
+HOMEBREW_ROOT_PATH="/usr/local"
 if [ $(uname -p) = 'arm' ]; then
-  HOMEBREW_BIN_PATH="/opt/homebrew/bin"
+  HOMEBREW_ROOT_PATH="/opt/homebrew"
 fi
+
+HOMEBREW_BIN_PATH="$HOMEBREW_ROOT_PATH/bin"
+HOMEBREW_OPT_PATH="$HOMEBREW_ROOT_PATH/opt"
 
 # Exports
 export DOTFILES="$HOME/.dotfiles"
@@ -26,3 +29,8 @@ function exists() {
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
+
+# `asdf
+. "$HOMEBREW_OPT_PATH/asdf/libexec/asdf.sh"
+eval "$(asdf exec direnv hook zsh)"
+direnv() { asdf exec direnv "$@"; }
