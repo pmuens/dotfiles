@@ -8,8 +8,14 @@ fi
 
 # Exports
 export DOTFILES="$HOME/.dotfiles"
-export PATH="$HOMEBREW_BIN_PATH:$PATH"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+
+# Path
+typeset -U path
+path=(
+  $HOMEBREW_BIN_PATH
+  $path
+)
 
 # Functions
 function exists() {
