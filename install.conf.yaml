@@ -18,6 +18,10 @@
       path: direnv
       create: true
       force: true
+    ~/.config/starship.toml:
+      path: starship/starship.toml
+      create: true
+      force: true
     ~/Library/Application Support/Code/User/settings.json:
       path: vscode/settings.json
       create: true

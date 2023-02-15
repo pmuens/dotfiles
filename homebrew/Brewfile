@@ -36,6 +36,8 @@ brew "neovim"
 brew "ripgrep"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Manage Git commits as a stack of patches
 brew "stgit"
 # Text interface for Git repositories

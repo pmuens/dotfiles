@@ -9,3 +9,6 @@ RPROMPT='%*'
 precmd() {
   source "$DOTFILES/zsh/aliases.zsh"
 }
+
+# Starship
+eval "$(starship init zsh)"
