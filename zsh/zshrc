@@ -1,10 +1,6 @@
 # Exports
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
-# Prompt(s)
-PROMPT='%1~ %L %# '
-RPROMPT='%*'
-
 # Functions
 precmd() {
   source "$DOTFILES/zsh/aliases.zsh"
