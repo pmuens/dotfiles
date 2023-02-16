@@ -48,6 +48,8 @@ brew "starship"
 brew "stgit"
 # Text interface for Git repositories
 brew "tig"
+# Simplified and community-driven man pages
+brew "tldr"
 # Terminal multiplexer
 brew "tmux"
 # CLI tool that moves files or folder to the trash
