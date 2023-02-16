@@ -34,6 +34,8 @@ brew "mackup"
 brew "mas"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# 📦🚀 Fast, disk space efficient package manager
+brew "pnpm"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Keccak, SHA-3, SHAKE, and RawSHAKE checksum utilities
