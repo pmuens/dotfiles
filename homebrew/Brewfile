@@ -84,6 +84,8 @@ cask "telegram"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+# View output from scripts in the menu bar
+cask "xbar"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
