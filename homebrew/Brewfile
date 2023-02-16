@@ -46,8 +46,6 @@ brew "shellcheck"
 brew "starship"
 # Manage Git commits as a stack of patches
 brew "stgit"
-# Text interface for Git repositories
-brew "tig"
 # Simplified and community-driven man pages
 brew "tldr"
 # Terminal multiplexer
