@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "command": "toggleVim",
+    "key": "ctrl+alt+v"
+  }
+]
