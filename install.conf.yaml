@@ -44,20 +44,20 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - command: ./scripts/setup-homebrew.zsh
+    - command: ./homebrew/setup.zsh
       stdin: true
       stdout: true
       stderr: true
-    - command: ./scripts/setup-zsh.zsh
+    - command: ./zsh/setup.zsh
       stdin: true
       stdout: true
       stderr: true
-    - command: ./scripts/setup-asdf.zsh
+    - command: ./asdf/setup.zsh
       stdout: true
       stderr: true
-    - command: ./scripts/setup-vscode.zsh
+    - command: ./vscode/setup.zsh
       stdout: true
       stderr: true
-    - command: ./scripts/setup-alacritty.zsh
+    - command: ./alacritty/setup.zsh
       stdout: true
       stderr: true
