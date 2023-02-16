@@ -56,6 +56,8 @@ brew "trash"
 brew "vim"
 # Internet file retriever
 brew "wget"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
 # GPU-accelerated terminal emulator
