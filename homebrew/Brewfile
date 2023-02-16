@@ -34,6 +34,8 @@ brew "mas"
 brew "neovim"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Keccak, SHA-3, SHAKE, and RawSHAKE checksum utilities
+brew "sha3sum"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Cross-shell prompt for astronauts
@@ -52,6 +54,8 @@ brew "vim"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Web browser

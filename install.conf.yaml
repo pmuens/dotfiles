@@ -18,6 +18,10 @@
       path: direnv
       create: true
       force: true
+    ~/.config/alacritty/alacritty.yml:
+      path: alacritty/alacritty.yml
+      create: true
+      force: true
     ~/.config/starship.toml:
       path: starship/starship.toml
       create: true
@@ -52,5 +56,8 @@
       stdout: true
       stderr: true
     - command: ./scripts/setup-vscode.zsh
+      stdout: true
+      stderr: true
+    - command: ./scripts/setup-alacritty.zsh
       stdout: true
       stderr: true
