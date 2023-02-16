@@ -30,6 +30,10 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
+function suppress_error() {
+  "$@" || true
+}
+
 # `asdf
 . "$HOMEBREW_OPT_PATH/asdf/libexec/asdf.sh"
 eval "$(asdf exec direnv hook zsh)"

@@ -3,8 +3,8 @@
 echo ""
 echo "--- Starting asdf Setup ---"
 
-asdf plugin add direnv
-asdf install direnv latest
-asdf global direnv latest
+suppress_error asdf plugin add direnv
+suppress_error asdf install direnv latest
+suppress_error asdf global direnv latest
 
-asdf plugin add nodejs
+suppress_error asdf plugin add nodejs
