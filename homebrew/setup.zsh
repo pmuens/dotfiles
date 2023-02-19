@@ -3,16 +3,6 @@
 echo ""
 echo "--- Starting Homebrew Setup ---"
 
-# See: https://stackoverflow.com/a/15371967
-# See: https://developer.apple.com/forums/thread/698954
-if ! xcode-select -p &> /dev/null; then
-  xcode-select --install
-else
-  echo "Xcode Command Line Tools already installed..."
-fi
-
-echo ""
-
 if ! exists brew; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
