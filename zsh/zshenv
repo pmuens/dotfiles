@@ -34,7 +34,7 @@ function suppress_error() {
   "$@" || true
 }
 
-# `asdf
+# asdf
 . "$HOMEBREW_OPT_PATH/asdf/libexec/asdf.sh"
 eval "$(asdf exec direnv hook zsh)"
 direnv() { asdf exec direnv "$@"; }
