@@ -1,5 +1,7 @@
 # Exports
 export NULLCMD=bat
+export PUBKEY_FILE_NAME='id_ed25519.pub'
+export PUBKEY_FILE_PATH="$HOME/.ssh/$PUBKEY_FILE_NAME"
 
 # Path
 typeset -U path
