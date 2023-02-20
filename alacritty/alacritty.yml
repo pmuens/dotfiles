@@ -1,8 +1,10 @@
+# See: https://github.com/alacritty/alacritty/blob/master/alacritty.yml
+
 live_config_reload: true
 
 scrolling:
   history: 10000
-  multiplier: 10
+  multiplier: 3
 
 selection:
   semantic_escape_chars: '|:"'' {}()[]<>'
@@ -13,7 +15,8 @@ window:
   padding:
     x: 10
     y: 5
-  decorations: none
+  title: Alacritty
+  decorations: buttonless
   dynamic_title: true
   startup_mode: Maximized
 
