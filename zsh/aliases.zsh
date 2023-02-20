@@ -20,7 +20,6 @@ alias dt="cd $HOME/Desktop"
 alias dw="cd $HOME/Downloads"
 alias co="cd $HOME/code"
 
-
 # System Management
 alias mb='mackup backup'
 alias mr='mackup restore'
