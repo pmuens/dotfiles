@@ -40,6 +40,8 @@ alias gpu='git push'
 alias gfp='git fetch --prune'
 alias grc='git rebase --continue'
 alias gra='git rebase --abort'
+alias gs='git stash'
+alias gsp='git stash pop'
 
 # Utils
 alias trail='<<<${(F)path}'
