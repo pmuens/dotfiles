@@ -4,6 +4,7 @@
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "editor.lineNumbers": "relative",
   "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "editor.scrollBeyondLastLine": false,
