@@ -66,6 +66,8 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Local-first and end-to-end encrypted notes app
+cask "anytype"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Web browser
