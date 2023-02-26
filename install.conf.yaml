@@ -19,6 +19,10 @@
       path: direnv
       create: true
       force: true
+    ~/.fzf.zsh:
+      path: fzf/fzf.zsh
+      create: true
+      force: true
     ~/.config/alacritty/alacritty.yml:
       path: alacritty/alacritty.yml
       create: true
