@@ -11,6 +11,7 @@
     ~/.gitconfig: git/gitconfig
     ~/.ssh/config: ssh/config
     ~/.mackup.cfg: mackup/mackup.cfg
+    ~/.tool-versions: asdf/tool-versions
     ~/.config/bat:
       path: bat
       create: true
