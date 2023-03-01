@@ -8,3 +8,4 @@ suppress_error asdf install direnv latest
 suppress_error asdf global direnv latest
 
 suppress_error asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+suppress_error asdf plugin add rust https://github.com/asdf-community/asdf-rust.git
