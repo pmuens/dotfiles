@@ -1,24 +1,24 @@
-# Homebrew makes a distiction between Apple Silicon and Intel.
-# See: https://stackoverflow.com/a/71186857 and https://stackoverflow.com/a/65259353
 # TODO: Ensure that this is always up-to-date.
+# Note that we need to keep this as `brew --prefix` can't be used until Homebrew was
+#   added to our path below.
+# Homebrew makes a distiction between Apple Silicon and Intel.
+#   See: https://stackoverflow.com/a/71186857 and https://stackoverflow.com/a/65259353
 HOMEBREW_ROOT_PATH="/usr/local"
 if [ $(uname -p) = 'arm' ]; then
   HOMEBREW_ROOT_PATH="/opt/homebrew"
 fi
 
-HOMEBREW_BIN_PATH="$HOMEBREW_ROOT_PATH/bin"
-HOMEBREW_OPT_PATH="$HOMEBREW_ROOT_PATH/opt"
-
-# Exports
-export DOTFILES="$HOME/.dotfiles"
-export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
-
 # Path
 typeset -U path
 path=(
-  $HOMEBREW_BIN_PATH
+  "$HOMEBREW_ROOT_PATH/bin"
   $path
 )
+
+# Exports
+export DOTFILES="$HOME/.dotfiles"
+export HOMEBREW_PREFIX=$(brew --prefix)
+export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
 
 # Functions
 function exists() {
@@ -31,6 +31,6 @@ function suppress_error() {
 }
 
 # asdf
-. "$HOMEBREW_OPT_PATH/asdf/libexec/asdf.sh"
+. "$HOMEBREW_PREFIX/opt/asdf/libexec/asdf.sh"
 eval "$(asdf exec direnv hook zsh)"
 direnv() { asdf exec direnv "$@"; }

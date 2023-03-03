@@ -13,8 +13,8 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
 # Z shell Plugins
-source "$(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
-source "$(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source "$HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
