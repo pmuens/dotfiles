@@ -50,10 +50,6 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - command: ./xcode/setup.zsh
-      stdin: true
-      stdout: true
-      stderr: true
     - command: ./homebrew/setup.zsh
       stdin: true
       stdout: true
