@@ -8,6 +8,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 # Shorthands
+alias e='exit'
 alias c='clear'
 alias l='exa -laFh --git'
 alias s="source $HOME/.zshrc"
