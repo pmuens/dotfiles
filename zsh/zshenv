@@ -11,12 +11,19 @@ fi
 # Path
 typeset -U path
 path=(
+  "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
   "$HOMEBREW_ROOT_PATH/bin"
   $path
 )
 
 # Exports
+export NULLCMD=bat
+export EDITOR='nvim';
+export LANG='en_US.UTF-8';
+export LC_ALL='en_US.UTF-8';
+export PUBKEY_FILE_NAME='id_ed25519.pub'
 export DOTFILES="$HOME/.dotfiles"
+export PUBKEY_FILE_PATH="$HOME/.ssh/$PUBKEY_FILE_NAME"
 export HOMEBREW_PREFIX=$(brew --prefix)
 export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
 
