@@ -11,6 +11,7 @@
     ~/.ssh/config: ssh/config
     ~/.mackup.cfg: mackup/mackup.cfg
     ~/.tool-versions: asdf/tool-versions
+    ~/.default-python-packages: asdf/default-python-packages
     ~/.config/bat:
       path: bat
       create: true

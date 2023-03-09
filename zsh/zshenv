@@ -26,6 +26,7 @@ export DOTFILES="$HOME/.dotfiles"
 export PUBKEY_FILE_PATH="$HOME/.ssh/$PUBKEY_FILE_NAME"
 export HOMEBREW_PREFIX=$(brew --prefix)
 export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
+export PIPENV_VENV_IN_PROJECT=1
 
 # Functions
 function exists() {
