@@ -70,6 +70,8 @@ cask "alacritty"
 cask "anytype"
 # Web browser focusing on privacy
 cask "brave-browser"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Web browser
 cask "firefox"
 # Clipboard manager for developers
