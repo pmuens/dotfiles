@@ -36,6 +36,8 @@ brew "mackup"
 brew "mas"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # 📦🚀 Fast, disk space efficient package manager
 brew "pnpm"
 # Search tool like grep and The Silver Searcher
