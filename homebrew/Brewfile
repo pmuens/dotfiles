@@ -82,6 +82,8 @@ cask "firefox"
 cask "flycut"
 # Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
+# Convert your caps lock key or any of your modifier keys to the hyper key
+cask "hyperkey"
 # Free and open-source RSS reader
 cask "netnewswire"
 # Collaboration platform for API development
