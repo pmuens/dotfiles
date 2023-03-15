@@ -9,8 +9,6 @@ ln -sf "$HOME/code" "$HOME/Desktop/code"
 
 config_file_path="$DOTFILES/config.zsh"
 macos_file_path="$DOTFILES/macos/macos.zsh"
-keyremaps_file_path="$DOTFILES/macos/keyremaps.zsh"
 
-source "$keyremaps_file_path"
 source "$config_file_path"
 source "$macos_file_path"
