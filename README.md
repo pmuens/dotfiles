@@ -35,7 +35,7 @@
 10. Alacritty
 11. Things
 12. Visual Studio Code
-13. Brave
+13. Firefox
 14. Notes
 
 ## Useful Commands

@@ -72,8 +72,6 @@ brew "zsh-syntax-highlighting"
 cask "alacritty"
 # Local-first and end-to-end encrypted notes app
 cask "anytype"
-# Web browser focusing on privacy
-cask "brave-browser"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Web browser
