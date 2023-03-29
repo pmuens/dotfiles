@@ -77,12 +77,6 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Deactivate "On My Mac"
 - [ ] Add and activate "iCloud"
 
-## NextDNS
-
-- [ ] Launch at login
-- [ ] Send Device Name
-- [ ] Enter Configuration ID
-
 ## Rectangle
 
 - [ ] Launch at login
