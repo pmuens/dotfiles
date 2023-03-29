@@ -72,6 +72,8 @@ brew "zsh-syntax-highlighting"
 cask "alacritty"
 # Local-first and end-to-end encrypted notes app
 cask "anytype"
+# Application uninstaller
+cask "appcleaner"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Web browser
