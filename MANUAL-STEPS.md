@@ -18,16 +18,6 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Update Trackpad settings to enable "Tap to click" \*
 - [ ] Don't automatically rearrange spaces in Mission Control \*
 
-## AdGuard for Safari
-
-- [ ] Launch at login
-- [ ] Filters
-  - [ ] Annoyances
-    - [ ] Fanboy's Annoyances
-    - [ ] I don't care about cookies
-  - [ ] Language-specific
-    - [ ] AdGuard German filter
-
 ## Anytype
 
 - [ ] Log in
