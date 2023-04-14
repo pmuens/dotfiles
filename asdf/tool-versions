@@ -3,3 +3,4 @@
 direnv 2.32.2
 python 3.11.2
 nodejs 19.8.1
+zig 0.10.1

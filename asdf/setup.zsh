@@ -14,4 +14,7 @@ suppress_error asdf install python 3.11.2
 suppress_error asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 suppress_error asdf install nodejs 19.8.1
 
+suppress_error asdf plugin-add zig https://github.com/asdf-community/asdf-zig.git
+suppress_error asdf install zig 0.10.1
+
 suppress_error asdf plugin add rust https://github.com/asdf-community/asdf-rust.git
