@@ -18,6 +18,18 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Update Trackpad settings to enable "Tap to click" \*
 - [ ] Don't automatically rearrange spaces in Mission Control \*
 
+## 1Blocker
+
+**Note**: Make sure to disable extensions that require additional permissions.
+
+- [ ] General
+  - [ ] Block Ads on Sites
+  - [ ] Block Web Trackers
+  - [ ] Block Annoyances
+  - [ ] Block Widgets
+- [ ] Regional
+  - [ ] Block German Ads
+
 ## Anytype
 
 - [ ] Log in

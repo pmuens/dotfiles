@@ -106,6 +106,7 @@ cask "visual-studio-code"
 cask "vlc"
 # View output from scripts in the menu bar
 cask "xbar"
+mas "1Blocker", id: 1365531024
 mas "Bitwarden", id: 1352778147
 mas "Exporter", id: 1099120373
 mas "GoodNotes", id: 1444383602
