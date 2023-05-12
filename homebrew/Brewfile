@@ -76,6 +76,8 @@ cask "anytype"
 cask "appcleaner"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Matrix collaboration client
+cask "element"
 # Web browser
 cask "firefox"
 # Clipboard manager for developers
