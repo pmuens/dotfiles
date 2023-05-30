@@ -53,6 +53,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Log in to sync
 - [ ] Customize Toolbar to remove space
 - [ ] Customize Toolbar to remove extensions
+- [ ] Disable all AutoFills \*
 - [ ] Disable default browser check \*
 - [ ] Open previous windows and tabs \*
 - [ ] Confirm before quitting with CMD + Q \*
@@ -88,6 +89,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 ## Safari
 
 - [ ] Show Status Bar (CMD + /)
+- [ ] Set Homepage to `about:blank`
 - [ ] Load all windows from last session
 - [ ] Customize Toolbar to remove "Flexible Space"
 - [ ] Customize Toolbar to include "Show iCloud Tabs" left to "New Tab"
@@ -112,6 +114,13 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 
 - [ ] Log in
 - [ ] Show Calendar events in lists
+
+## Visual Studio Code
+
+**Note**: Use "CMD + Shift + P" to search for editor commands.
+
+- [ ] Install Go Tools
+- [ ] Install Zig Language Server
 
 ---
 
