@@ -74,6 +74,8 @@ cask "alacritty"
 cask "anytype"
 # Application uninstaller
 cask "appcleaner"
+# Free and open-source web browser
+cask "chromium"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Matrix collaboration client
