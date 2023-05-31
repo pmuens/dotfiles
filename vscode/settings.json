@@ -38,6 +38,7 @@
 
   "typescript.updateImportsOnFileMove.enabled": "never",
   "javascript.updateImportsOnFileMove.enabled": "never",
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
   "telemetry.telemetryLevel": "off"
