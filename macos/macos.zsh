@@ -177,7 +177,7 @@ defaults write com.apple.finder ShowStatusBar -bool true
 defaults write com.apple.finder ShowPathbar -bool true
 
 # Keep folders on top when sorting by name
-defaults write com.apple.finder _FXSortFoldersFirst -bool true
+defaults write com.apple.finder _FXSortFoldersFirst -bool false
 
 # When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
