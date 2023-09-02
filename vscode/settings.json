@@ -1,7 +1,7 @@
 {
   "editor.tabSize": 2,
   "editor.folding": false,
-  "editor.formatOnType": true,
+  "editor.formatOnType": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.lineNumbers": "relative",
