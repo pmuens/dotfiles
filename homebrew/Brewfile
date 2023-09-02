@@ -12,6 +12,8 @@ brew "bat"
 brew "cmake"
 # C library of Git core methods that is re-entrant and linkable
 brew "libgit2"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Modern replacement for 'ls'
 brew "exa"
 # Simple, fast and user-friendly alternative to find
@@ -24,6 +26,12 @@ brew "git"
 brew "libgit2@1.5"
 # High-velocity, monorepo-scale workflow for Git
 brew "git-branchless"
+# Asynchronous event library
+brew "libevent"
+# Open source suite of directory software
+brew "openldap"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # Improved top (interactive process viewer)
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -54,6 +62,8 @@ brew "pkg-config"
 brew "pnpm"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Tool for downloading RTMP streaming media
+brew "rtmpdump"
 # Keccak, SHA-3, SHAKE, and RawSHAKE checksum utilities
 brew "sha3sum"
 # Static analysis and lint tool, for (ba)sh scripts
