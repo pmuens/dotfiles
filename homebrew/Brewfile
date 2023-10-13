@@ -112,8 +112,6 @@ cask "font-hack-nerd-font"
 cask "hyperkey"
 # Free and open-source RSS reader
 cask "netnewswire"
-# Collaboration platform for API development
-cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Instant messaging application focusing on security
