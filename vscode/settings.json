@@ -20,6 +20,7 @@
   "workbench.iconTheme": "file-icons",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
 
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -42,6 +43,8 @@
   "errorLens.enabledDiagnosticLevels": ["error", "warning"],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "gitlens.telemetry.enabled": false,
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.showWhatsNewAfterUpgrades": false,
 
   "telemetry.telemetryLevel": "off",
   "telemetry.enableTelemetry": false,
