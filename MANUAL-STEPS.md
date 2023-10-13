@@ -9,6 +9,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Show Sound in Menu Bar
 - [ ] Show Bluetooth in Menu Bar
 - [ ] Don't optimize Mac Storage
+- [ ] Enable Time Machine Backups
 - [ ] Update notification settings
 - [ ] Update Trackpad click to be "Firm"
 - [ ] Enable E-Mail for all Internet Accounts
@@ -115,6 +116,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 ## Spotify
 
 - [ ] Log in
+- [ ] Don't open after login
 
 ## Telegram
 
