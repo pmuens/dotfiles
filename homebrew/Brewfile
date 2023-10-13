@@ -94,8 +94,6 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Local-first and end-to-end encrypted notes app
-cask "anytype"
 # Application uninstaller
 cask "appcleaner"
 # Free and open-source web browser
