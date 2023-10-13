@@ -128,8 +128,6 @@ cask "the-unarchiver"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
-# View output from scripts in the menu bar
-cask "xbar"
 mas "1Blocker", id: 1365531024
 mas "Bitwarden", id: 1352778147
 mas "Exporter", id: 1099120373
