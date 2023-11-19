@@ -68,6 +68,9 @@
     - command: ./alacritty/setup.zsh
       stdout: true
       stderr: true
+    - command: ./mkcert/setup.zsh
+      stdout: true
+      stderr: true
     # TODO: The macOS setup is currently not run as part of
     #   the install procedure as it's a "destructive" operation.
     # - command: ./macos/setup.zsh
