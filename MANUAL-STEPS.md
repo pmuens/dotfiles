@@ -39,6 +39,24 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 
 - [ ] Log in
 
+## Brave
+
+- [ ] Disable all AutoFills
+- [ ] On startup continue where you left off
+- [ ] New tab page shows blank page
+- [ ] Don't show Brave News button
+- [ ] Don't show Brave Wallet button
+- [ ] Don't show Sidebar button
+- [ ] Don't show VPN button
+- [ ] Never show bookmarks
+- [ ] Use wide address bar
+- [ ] Always show full URLs
+- [ ] Tab hover mode card with preview
+- [ ] Hide Brave Rewards icon in address bar
+- [ ] Don't show tip buttons on sites
+- [ ] Don't use Brave Translate
+- [ ] Don't show download when done
+
 ## Finder
 
 - [ ] Resize Window

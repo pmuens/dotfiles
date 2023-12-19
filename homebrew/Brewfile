@@ -98,6 +98,8 @@ brew "zsh-syntax-highlighting"
 cask "alacritty"
 # Application uninstaller
 cask "appcleaner"
+# Web browser focusing on privacy
+cask "brave-browser"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Matrix collaboration client
