@@ -39,16 +39,6 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 
 - [ ] Log in
 
-## Chromium
-
-- [ ] Disable all AutoFills
-- [ ] On startup continue where you left off
-- [ ] Extensions
-  - [ ] MetaMask
-  - [ ] uBlock Origin
-  - [ ] Cookie AutoDelete
-  - [ ] I still don't care about cookies
-
 ## Finder
 
 - [ ] Resize Window
