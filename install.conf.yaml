@@ -25,8 +25,8 @@
       path: fzf/fzf.zsh
       create: true
       force: true
-    ~/.config/alacritty/alacritty.yml:
-      path: alacritty/alacritty.yml
+    ~/.config/alacritty/alacritty.toml:
+      path: alacritty/alacritty.toml
       create: true
       force: true
     ~/.config/starship.toml:
