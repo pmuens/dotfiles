@@ -42,6 +42,7 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "errorLens.enabledDiagnosticLevels": ["error", "warning"],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vim.disableExtension": true,
   "gitlens.telemetry.enabled": false,
   "gitlens.showWelcomeOnInstall": false,
   "gitlens.showWhatsNewAfterUpgrades": false,
