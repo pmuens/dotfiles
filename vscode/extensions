@@ -16,6 +16,7 @@ ms-python.python
 ms-python.vscode-pylance
 ms-vscode.cpptools
 ms-vscode.hexeditor
+oderwat.indent-rainbow
 rangav.vscode-thunder-client
 rust-lang.rust-analyzer
 streetsidesoftware.code-spell-checker
