@@ -36,6 +36,8 @@
 
   "debug.allowBreakpointsEverywhere": true,
 
+  "git.inputValidation": true,
+
   "diffEditor.ignoreTrimWhitespace": false,
 
   "typescript.updateImportsOnFileMove.enabled": "never",
