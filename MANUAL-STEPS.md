@@ -8,6 +8,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 
 - [ ] Show Sound in Menu Bar
 - [ ] Show Bluetooth in Menu Bar
+- [ ] Show Battery Percentage in Menu Bar
 - [ ] Don't optimize Mac Storage
 - [ ] Enable Time Machine Backups
 - [ ] Update notification settings
@@ -111,7 +112,10 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Set Homepage to `about:blank`
 - [ ] Load all windows from last session
 - [ ] Customize Toolbar to remove "Flexible Space"
+- [ ] Customize Toolbar to remove unnecessary items
 - [ ] Customize Toolbar to include "Show iCloud Tabs" left to "New Tab"
+- [ ] Setup / Enable Profiles
+- [ ] Enable extensions
 - [ ] Show full URL \*
 - [ ] Disable AutoFill \*
 - [ ] Open new windows and tabs with empty page \*
