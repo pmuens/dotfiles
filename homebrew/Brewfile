@@ -68,6 +68,8 @@ brew "perl"
 brew "pkg-config"
 # Fast, disk space efficient package manager
 brew "pnpm"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Tool for downloading RTMP streaming media
@@ -112,7 +114,6 @@ cask "element"
 cask "firefox"
 # Clipboard manager for developers
 cask "flycut"
-# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 # Convert your caps lock key or any of your modifier keys to the hyper key
 cask "hyperkey"
