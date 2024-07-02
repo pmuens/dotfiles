@@ -136,6 +136,7 @@ cask "visual-studio-code"
 cask "vlc"
 mas "1Blocker", id: 1365531024
 mas "Bitwarden", id: 1352778147
+mas "Draw Things", id: 6444050820
 mas "Exporter", id: 1099120373
 mas "Goodnotes", id: 1444383602
 mas "Keynote", id: 409183694
