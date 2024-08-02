@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 # Replacements
-alias ls=exa
+alias ls=eza
 alias grep=rg
 alias rm='trash'
 alias cp='cp -i'
@@ -10,7 +10,7 @@ alias mv='mv -i'
 # Shorthands
 alias e='exit'
 alias c='clear'
-alias l='exa -laFh --git'
+alias l='eza -lah --git --icons'
 alias s="source $HOME/.zshrc"
 alias g='lazygit'
 alias j='z'
