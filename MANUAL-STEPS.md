@@ -58,6 +58,10 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Don't use Brave Translate
 - [ ] Don't show download when done
 
+## Calculator
+
+- [ ] Switch view to "Programmer"
+
 ## Finder
 
 - [ ] Resize Window
