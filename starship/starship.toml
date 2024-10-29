@@ -13,6 +13,7 @@ $golang \
 $nodejs\
 $python\
 $rust\
+$zig\
 $cmd_duration $jobs $time\
 $line_break\
 $character"""
@@ -33,6 +34,9 @@ format = "[$symbol($version )]($style)"
 format = "[$symbol($version )]($style)"
 
 [rust]
+format = "[$symbol($version )]($style)"
+
+[zig]
 format = "[$symbol($version )]($style)"
 
 [fill]
