@@ -57,6 +57,8 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Don't show tip buttons on sites
 - [ ] Don't use Brave Translate
 - [ ] Don't show download when done
+- [ ] Enable search suggestions
+- [ ] Use Google as the search engine for Normal- and Private Window
 
 ## Calculator
 
