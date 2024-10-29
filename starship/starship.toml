@@ -8,12 +8,16 @@ $git_status\
 $git_metrics\
 $fill\
 $bun \
+$deno \
 $nodejs\
 $cmd_duration $jobs $time\
 $line_break\
 $character"""
 
 [bun]
+format = "[$symbol($version )]($style)"
+
+[deno]
 format = "[$symbol($version )]($style)"
 
 [nodejs]
