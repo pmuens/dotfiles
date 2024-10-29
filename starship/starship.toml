@@ -9,6 +9,7 @@ $git_metrics\
 $fill\
 $bun \
 $deno \
+$golang \
 $nodejs\
 $cmd_duration $jobs $time\
 $line_break\
@@ -18,6 +19,9 @@ $character"""
 format = "[$symbol($version )]($style)"
 
 [deno]
+format = "[$symbol($version )]($style)"
+
+[golang]
 format = "[$symbol($version )]($style)"
 
 [nodejs]
