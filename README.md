@@ -112,6 +112,7 @@ defaults find <query>
 ### Misc
 
 - [Eizo Monitor Test](https://www.eizo.de/monitortest/)
+- [JScreenFix](https://www.jscreenfix.com)
 
 ### Other `dotfiles`
 
