@@ -15,6 +15,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Update Trackpad click to be "Firm"
 - [ ] Enable E-Mail for all Internet Accounts
 - [ ] Set Night Shift schedule to "Sunset to Sunrise"
+- [ ] Remove margins for tiled windows
 - [ ] Require Password immediately \*
 - [ ] Sort Desktop items by "Snap to Grid" \*
 - [ ] Update Trackpad settings to enable "Tap to click" \*
