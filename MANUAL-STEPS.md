@@ -80,6 +80,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Log in to sync
 - [ ] Customize Toolbar to remove space
 - [ ] Customize Toolbar to remove extensions
+- [ ] Never show Bookmarks Toolbar
 - [ ] Disable all AutoFills \*
 - [ ] Disable default browser check \*
 - [ ] Open previous windows and tabs \*
