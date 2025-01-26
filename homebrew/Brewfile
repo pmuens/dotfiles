@@ -6,12 +6,12 @@ brew "openssl@3"
 brew "readline"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
+# C library of Git core methods that is re-entrant and linkable
+brew "libgit2"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Cross-platform make
 brew "cmake"
-# C library of Git core methods that is re-entrant and linkable
-brew "libgit2"
 # Modern, maintained replacement for ls
 brew "eza"
 # Simple, fast and user-friendly alternative to find
@@ -70,8 +70,8 @@ brew "openldap"
 brew "openssl@1.1"
 # Highly capable, feature-rich programming language
 brew "perl"
-# Manage compile and link flags for libraries
-brew "pkg-config"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Interpreted, interactive, object-oriented programming language
@@ -93,7 +93,7 @@ brew "tldr"
 # Terminal multiplexer
 brew "tmux"
 # CLI tool that moves files or folder to the trash
-brew "trash"
+brew "trash", link: true
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
