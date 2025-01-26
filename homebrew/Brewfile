@@ -112,8 +112,6 @@ cask "alacritty"
 cask "appcleaner"
 # Web browser focusing on privacy
 cask "brave-browser"
-# App to build and share containerised applications and microservices
-cask "docker"
 # Matrix collaboration client
 cask "element"
 # Web browser
