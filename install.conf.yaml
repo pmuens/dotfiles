@@ -25,10 +25,6 @@
       path: fzf/fzf.zsh
       create: true
       force: true
-    ~/.config/alacritty/alacritty.toml:
-      path: alacritty/alacritty.toml
-      create: true
-      force: true
     ~/.config/ghostty/config:
       path: ghostty/config
       create: true
@@ -67,9 +63,6 @@
       stdout: true
       stderr: true
     - command: ./vscode/setup.zsh
-      stdout: true
-      stderr: true
-    - command: ./alacritty/setup.zsh
       stdout: true
       stderr: true
     - command: ./mkcert/setup.zsh

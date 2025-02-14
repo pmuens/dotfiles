@@ -32,7 +32,7 @@
 7. Calendar
 8. Bitwarden
 9. System Preferences
-10. Alacritty
+10. Ghostty
 11. Things
 12. Visual Studio Code
 13. Firefox
