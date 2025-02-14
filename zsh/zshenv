@@ -13,6 +13,7 @@ typeset -U path
 path=(
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
   "$HOMEBREW_ROOT_PATH/bin"
+  "${ASDF_DATA_DIR:-$HOME/.asdf}/shims"
   $path
 )
 
