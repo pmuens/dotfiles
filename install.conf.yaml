@@ -29,6 +29,10 @@
       path: alacritty/alacritty.toml
       create: true
       force: true
+    ~/.config/ghostty/config:
+      path: ghostty/config
+      create: true
+      force: true
     ~/.config/starship.toml:
       path: starship/starship.toml
       create: true

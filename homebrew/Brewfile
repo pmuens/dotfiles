@@ -119,6 +119,8 @@ cask "firefox"
 # Clipboard manager for developers
 cask "flycut"
 cask "font-hack-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Convert your caps lock key or any of your modifier keys to the hyper key
 cask "hyperkey"
 # Free and open-source RSS reader
