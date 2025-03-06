@@ -75,19 +75,6 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Show "Status Bar" \*
 - [ ] Show "iCloud Drive" in new window \*
 
-## Firefox
-
-- [ ] Log in to sync
-- [ ] Customize Toolbar to remove space
-- [ ] Customize Toolbar to remove extensions
-- [ ] Never show Bookmarks Toolbar
-- [ ] Disable all AutoFills \*
-- [ ] Disable default browser check \*
-- [ ] Open previous windows and tabs \*
-- [ ] Confirm before quitting with CMD + Q \*
-- [ ] Disable Firefox Data Collection \*
-- [ ] Open homepage, new windows and tabs with empty page \*
-
 ## Flycut
 
 - [ ] Launch at login

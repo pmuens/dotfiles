@@ -35,7 +35,7 @@
 10. Ghostty
 11. Things
 12. Visual Studio Code
-13. Firefox
+13. Brave
 14. Notes
 
 ## Useful Commands

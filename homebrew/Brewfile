@@ -112,8 +112,6 @@ cask "appcleaner"
 cask "brave-browser"
 # Matrix collaboration client
 cask "element"
-# Web browser
-cask "firefox"
 # Clipboard manager for developers
 cask "flycut"
 cask "font-hack-nerd-font"
