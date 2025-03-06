@@ -100,12 +100,6 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Don't install Rosetta
 - [ ] Install helpers
 
-## Rectangle
-
-- [ ] Launch at login
-- [ ] Check for updates automatically
-- [ ] Add to "Accessibility" in Privacy-related system settings
-
 ## Safari
 
 - [ ] Show Status Bar (CMD + /)
