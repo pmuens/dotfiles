@@ -67,6 +67,13 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 
 - [ ] Switch view to "Programmer"
 
+## CleanShot X
+
+- [ ] Launch at login
+- [ ] Don't share usage statistics
+- [ ] Hide Desktop icons while capturing
+- [ ] Enable "Do Not Disturb" while recording
+
 ## Finder
 
 - [ ] Resize Window

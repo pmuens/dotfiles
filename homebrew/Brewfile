@@ -110,6 +110,8 @@ brew "zsh-syntax-highlighting"
 cask "appcleaner"
 # Web browser focusing on privacy
 cask "brave-browser"
+# Screen capturing tool
+cask "cleanshot"
 # Matrix collaboration client
 cask "element"
 # Clipboard manager for developers
