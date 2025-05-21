@@ -6,4 +6,4 @@ make 4.4.1
 nodejs 20.5.1
 python 3.11.4
 rust 1.79.0
-zig 0.13.0
+zig 0.14.0
