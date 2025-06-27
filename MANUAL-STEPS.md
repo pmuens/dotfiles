@@ -18,6 +18,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Remove margins for tiled windows
 - [ ] Disable Apple Intelligence
 - [ ] Disable Siri
+- [ ] Enable Mission Control Keyboard Shortcuts (for spaces management)
 - [ ] Require Password immediately \*
 - [ ] Sort Desktop items by "Snap to Grid" \*
 - [ ] Update Trackpad settings to enable "Tap to click" \*
