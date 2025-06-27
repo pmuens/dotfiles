@@ -1,5 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+# Distributed revision control system
+brew "git"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 # Cryptography and SSL/TLS Toolkit
@@ -16,8 +18,6 @@ brew "eza"
 brew "fd"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# Distributed revision control system
-brew "git"
 # High-velocity, monorepo-scale workflow for Git
 brew "git-branchless"
 # Asynchronous event library
@@ -50,8 +50,6 @@ brew "libgit2@1.5"
 brew "zstd"
 # C library for reading, creating, and modifying zip archives
 brew "libzip"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
 # Linux virtual machines
 brew "lima"
 # Keep your Mac's application settings in sync
@@ -78,6 +76,8 @@ brew "pkgconf"
 brew "pnpm"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Tool for downloading RTMP streaming media
