@@ -149,6 +149,10 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Install Go Tools
 - [ ] Install Zig Language Server
 
+## Zavala
+
+- [ ] Enable iCloud
+
 ---
 
 \* = Settings that are automated via scripts / syncing
