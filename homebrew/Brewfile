@@ -52,6 +52,8 @@ brew "zstd"
 brew "libzip"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
+# Linux virtual machines
+brew "lima"
 # Keep your Mac's application settings in sync
 brew "mackup"
 # Mac App Store command-line interface
