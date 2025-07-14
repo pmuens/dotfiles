@@ -25,6 +25,10 @@
       path: fzf/fzf.zsh
       create: true
       force: true
+    ~/.config/git/hooks:
+      path: git/hooks
+      create: true
+      force: true
     ~/.config/ghostty/config:
       path: ghostty/config
       create: true

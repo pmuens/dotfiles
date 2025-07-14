@@ -11,7 +11,8 @@
 
 [core]
 	editor = vim
-	excludesFile = ~/.gitignore
+  hooksPath = ~/.config/git/hooks
+	excludesFile = ~/.config/git/.gitignore
 
 [init]
 	defaultBranch = master
