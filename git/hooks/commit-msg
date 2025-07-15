@@ -1,0 +1,70 @@
+#!/usr/bin/env zsh
+
+# Ensure that commit messages adhere to Git commit message conventions.
+# See: https://cbea.ms/git-commit
+# See: https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+
+commit_msg_file="$1"
+
+subject=$(sed -n "1p" "$commit_msg_file")
+second_line=$(sed -n "2p" "$commit_msg_file")
+body=$(sed -n "3p" "$commit_msg_file")
+
+# Check: Subject line is <= 50 characters.
+if [ ${#subject} -gt 50 ]; then
+  echo "Error: Subject line must be 50 characters or less."
+  exit 1
+fi
+
+# Check: Subject line has no whitespace at the front.
+if echo "$subject" | grep -q "^\s"; then
+  echo "Error: Subject line must not start with whitespace."
+  exit 1
+fi
+
+# Check: Subject line has no whitespace at the end.
+if echo "$subject" | grep -q "\s$"; then
+  echo "Error: Subject line must not end with whitespace."
+  exit 1
+fi
+
+# Check: Subject line does not end with a dot.
+if echo "$subject" | grep -q "\.$"; then
+  echo "Error: Subject line must not end with a dot."
+  exit 1
+fi
+
+# Check: Subject line starts with a capital letter.
+# This is commented out for now as it breaks compatibility with Conventional Commits.
+# See: https://www.conventionalcommits.org
+# if ! echo "$subject" | grep -q "^[A-Z]"; then
+#   echo "Error: Subject line must start with a capital letter."
+#   exit 1
+# fi
+
+# Check: The second line must always be blank.
+if [ "${#second_line}" -gt 0 ]; then
+  echo "Error: Second line must always be blank."
+  exit 1
+fi
+
+# Check: If there's a body, the body lines must all be <= 72 characters and must
+#   not start or end with whitespace.
+if [ "${#body}" -gt 0 ]; then
+  tail -n +3 "$commit_msg_file" | while IFS= read -r line; do
+    if [ "${#line}" -gt 72 ]; then
+      echo "Error: Body lines must be 72 characters or less."
+      exit 1
+    fi
+
+    if echo "$line" | grep -q "^\s"; then
+      echo "Error: Body lines must not start with whitespace."
+      exit 1
+    fi
+
+    if echo "$line" | grep -q "\s$"; then
+      echo "Error: Body lines must not end with whitespace."
+      exit 1
+    fi
+  done
+fi
