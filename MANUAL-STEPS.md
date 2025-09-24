@@ -42,7 +42,10 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 
 ## Bitwarden
 
-- [ ] Log in
+- [ ] Log in (App & Extension)
+- [ ] Clear Clipboard after 10 seconds (App & Extension)
+- [ ] Disable all notifications (Extension)
+- [ ] Disable all autofill suggestions (Extension)
 
 ## Brave
 
