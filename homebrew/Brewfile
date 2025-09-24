@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+tap "pmuens/nym-vpn"
 # Distributed revision control system
 brew "git"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more

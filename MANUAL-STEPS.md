@@ -105,6 +105,10 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Deactivate "On My Mac"
 - [ ] Add and activate "iCloud"
 
+## NymVPN
+
+- [ ] Set Appmode to Menubar only
+
 ## OrbStack
 
 - [ ] Don't install Rosetta
