@@ -17,9 +17,7 @@
 11. Run `mackup restore`
 12. Update [Dock](#dock)
 13. Perform [manual steps](./MANUAL-STEPS.md)
-14. Generate a new SSH key via [`./scripts/ssh.zsh email@example.com`](./scripts/ssh.zsh) (replace E-Mail address)
-15. Run `pubkey` and add public key to (online) services
-16. Run `git remote set-url origin git@github.com:pmuens/dotfiles.git`
+14. Run `git remote set-url origin git@github.com:pmuens/dotfiles.git`
 
 ## Dock
 

@@ -46,6 +46,8 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Clear Clipboard after 10 seconds (App & Extension)
 - [ ] Disable all notifications (Extension)
 - [ ] Disable all autofill suggestions (Extension)
+- [ ] Enable SSH Agent
+- [ ] Ask for SSH Agent authorization when Vault is locked
 
 ## Brave
 

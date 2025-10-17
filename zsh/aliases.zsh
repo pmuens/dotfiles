@@ -53,7 +53,6 @@ alias serve='python3 -m http.server'
 
 # Misc
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
-alias pubkey="cat $PUBKEY_FILE_PATH | pbcopy | echo '=> Public key copied to pasteboard.'"
 
 function mkcd() {
   mkdir -p "$@" && cd "$_";
