@@ -38,6 +38,7 @@
   "debug.allowBreakpointsEverywhere": true,
 
   "git.inputValidation": true,
+  "git.enableCommitSigning": true,
 
   "diffEditor.ignoreTrimWhitespace": false,
 

@@ -1,13 +1,19 @@
 [user]
 	name = Philipp Muens
 	email = philipp@muens.io
-	signingKey = philipp@muens.io
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJBYtE4RTY1Z1hftnJIqDLgu7Jxa/gAAQT4flHJOol4Q
 
 [color]
 	ui = true
 
+[gpg]
+	format = ssh
+
 [commit]
-	gpgSign = false
+	gpgsign = true
+
+[tag]
+	gpgsign = true
 
 [core]
 	editor = vim
