@@ -35,6 +35,8 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.defaultProfile.linux": "zsh",
 
+  "chat.disableAIFeatures": true,
+
   "debug.allowBreakpointsEverywhere": true,
 
   "git.inputValidation": true,
