@@ -17,9 +17,9 @@ alias j='z'
 alias v='nvim'
 alias ..='cd ..'
 alias ...='cd ../..'
-alias dt="cd $HOME/Desktop"
-alias dw="cd $HOME/Downloads"
-alias co="cd $HOME/code"
+alias dt="cd $DESKTOP"
+alias dw="cd $DOWNLOADS"
+alias co="cd $CODE"
 
 # System Management
 alias mb='mackup backup'
