@@ -147,6 +147,12 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 
 - [ ] Link Device
 
+## Transmission
+
+- [ ] Ignore unencrypted peers
+- [ ] Add Blocklist (Enable Auto-Updates)
+- [ ] Don't Play Sound when Download Completes
+
 ## Things
 
 - [ ] Log in
