@@ -29,12 +29,14 @@ brew "unbound"
 brew "gnutls"
 # Library for command-line editing
 brew "readline"
-# GNU Pretty Good Privacy (PGP) package
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Command-line hex viewer
 brew "hexyl"
 # Improved top (interactive process viewer)
 brew "htop"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Lightweight and flexible command-line JSON processor
@@ -47,8 +49,6 @@ brew "lazygit"
 brew "less"
 # C library of Git core methods that is re-entrant and linkable
 brew "libgit2@1.5"
-# Zstandard is a real-time compression algorithm
-brew "zstd"
 # C library for reading, creating, and modifying zip archives
 brew "libzip"
 # Linux virtual machines
