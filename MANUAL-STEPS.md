@@ -124,6 +124,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Show Status Bar (CMD + /)
 - [ ] Set Homepage to `about:blank`
 - [ ] Load all windows from last session
+- [ ] Don't show color in tab bar
 - [ ] Customize Toolbar to remove "Flexible Space"
 - [ ] Customize Toolbar to remove unnecessary items
 - [ ] Customize Toolbar to include "Show iCloud Tabs" left to "New Tab"
@@ -164,6 +165,7 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 
 - [ ] Install Go Tools
 - [ ] Install Zig Language Server
+- [ ] Disable "Open Editors" in Explorer
 
 ## Zavala
 
