@@ -41,6 +41,7 @@
 
   "git.inputValidation": true,
   "git.enableCommitSigning": true,
+  "git.terminalAuthentication": false,
 
   "diffEditor.ignoreTrimWhitespace": false,
 
@@ -49,6 +50,7 @@
   "errorLens.enabledDiagnosticLevels": ["error", "warning"],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "vim.disableExtension": true,
+  "github.gitAuthentication": false,
   "gitlens.telemetry.enabled": false,
   "gitlens.showWelcomeOnInstall": false,
   "gitlens.showWhatsNewAfterUpgrades": false,
