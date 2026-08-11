@@ -52,6 +52,7 @@
   "gitlens.telemetry.enabled": false,
   "gitlens.showWelcomeOnInstall": false,
   "gitlens.showWhatsNewAfterUpgrades": false,
+  "gitlens.rebaseEditor.openOnPausedRebase": false,
 
   "telemetry.telemetryLevel": "off",
   "telemetry.enableTelemetry": false,
