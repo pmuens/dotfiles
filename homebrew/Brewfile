@@ -1,8 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "pmuens/nym-vpn"
-# Distributed revision control system
-brew "git"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 # Cryptography and SSL/TLS Toolkit
@@ -19,12 +17,10 @@ brew "eza"
 brew "fd"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# Distributed revision control system
+brew "git"
 # High-velocity, monorepo-scale workflow for Git
 brew "git-branchless"
-# Asynchronous event library
-brew "libevent"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # Library for command-line editing
@@ -47,6 +43,8 @@ brew "jsonpp"
 brew "lazygit"
 # Pager program similar to more
 brew "less"
+# Asynchronous event library
+brew "libevent"
 # C library of Git core methods that is re-entrant and linkable
 brew "libgit2@1.5"
 # C library for reading, creating, and modifying zip archives
@@ -97,6 +95,8 @@ brew "tldr"
 brew "tmux"
 # CLI tool that moves files or folder to the trash
 brew "trash", link: true
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
@@ -128,6 +128,8 @@ cask "ghostty"
 cask "hyperkey"
 # Free and open-source RSS reader
 cask "netnewswire"
+# The world's most private VPN
+cask "pmuens/nym-vpn/nym-vpn", trusted: true
 # Replacement for Docker Desktop
 cask "orbstack"
 # Instant messaging application focusing on security
