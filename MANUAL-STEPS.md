@@ -40,6 +40,10 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 
 - [ ] Log in
 
+## Bike
+
+- [ ] Don't show welcome text
+
 ## Bitwarden
 
 - [ ] Log in (App & Extension)

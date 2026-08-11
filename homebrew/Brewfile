@@ -111,6 +111,8 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Application uninstaller
 cask "appcleaner"
+# Record and process your ideas
+cask "bike"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Screen capturing tool
