@@ -24,7 +24,7 @@ alias co="cd $CODE"
 # System Management
 alias mb='mackup backup'
 alias mr='mackup restore'
-alias bbd="brew bundle dump --file $DOTFILES/homebrew/Brewfile --force --no-vscode"
+alias bbd="brew bundle dump --file $DOTFILES/homebrew/Brewfile --force --formula --cask --tap --mas"
 alias ug="$DOTFILES/install"
 
 # Development
