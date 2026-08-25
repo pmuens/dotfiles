@@ -109,6 +109,11 @@ TODO: Always be on the lookout to automate these steps via the `defaults` comman
 - [ ] Quick press "Caps Lock" to execute "Escape"
 - [ ] Add to "Accessibility" in Privacy-related system settings
 
+## KeepingYouAwake
+
+- [ ] Start at Login
+- [ ] Deactivate when battery capacity is below 20%
+
 ## NetNewsWire
 
 - [ ] Deactivate "On My Mac"

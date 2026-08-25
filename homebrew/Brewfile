@@ -126,6 +126,8 @@ cask "font-hack-nerd-font"
 cask "ghostty"
 # Convert your caps lock key or any of your modifier keys to the hyper key
 cask "hyperkey"
+# Tool to prevent the system from going into sleep mode
+cask "keepingyouawake"
 # Free and open-source RSS reader
 cask "netnewswire"
 # The world's most private VPN
